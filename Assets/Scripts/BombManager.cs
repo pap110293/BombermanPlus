@@ -6,12 +6,9 @@ public class BombManager : MonoBehaviour {
 
     public static List<Bomb> bombs = new List<Bomb>();
 
-    public static Bomb CreateABomb(GameObject bombPrefab, Vector3 position)
+    public static void InputABomb(Bomb bomb)
     {
-        var bombGameobject = Instantiate(bombPrefab, position, Quaternion.identity);
-        var bomb = bombGameobject.GetComponent<Bomb>();
         bombs.Add(bomb);
-        return bomb;
     }
 
     public static void DestroyABomb(Bomb bomb)

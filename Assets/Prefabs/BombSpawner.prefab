@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 212920704393234612}
   - component: {fileID: 50495367369232678}
   - component: {fileID: 58255718262942758}
+  - component: {fileID: 114427544119324742}
+  - component: {fileID: 114203933038516584}
   m_Layer: 0
   m_Name: BombSpawner
   m_TagString: Player
@@ -92,6 +94,60 @@ MonoBehaviour:
   tilemap: {fileID: 0}
   bombPrefab: {fileID: 1581530702789938, guid: 6388a3524ec2a9d40b167c54d9d9c2d3, type: 2}
   moveSpeed: 5
+  level: 1
+--- !u!114 &114203933038516584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1316172158304912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.033333335
+  m_SyncRotationAxis: 3
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
+--- !u!114 &114427544119324742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1316172158304912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 51
+    i1: 56
+    i2: 241
+    i3: 236
+    i4: 200
+    i5: 23
+    i6: 36
+    i7: 132
+    i8: 72
+    i9: 183
+    i10: 38
+    i11: 237
+    i12: 5
+    i13: 6
+    i14: 6
+    i15: 133
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!212 &212920704393234612
 SpriteRenderer:
   m_ObjectHideFlags: 1

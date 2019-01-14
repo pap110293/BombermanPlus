@@ -2,21 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.Tilemaps;
 
-public class MapDestroyer : MonoBehaviour {
+public class MapDestroyer : NetworkBehaviour {
 
     public Tilemap tilemap;
     public Tile wallTile;
     public Tile destructableTile;
     public GameObject explosionPrefab;
-
-    private GameObject[] bombSpawners;
-
-    private void Awake()
-    {
-        bombSpawners = GameObject.FindGameObjectsWithTag("Player");
-    }
 
     public void Explode(Vector2 worldPos, int level)
     {
@@ -25,8 +19,11 @@ public class MapDestroyer : MonoBehaviour {
 
         if (originBomb != null)
         {
-            originBomb.isExplose = true;
-            BombManager.DestroyABomb(originBomb);
+            originBomb.isExplosed = true;
+            originBomb.GetComponent<SpriteRenderer>().enabled = false;
+            originBomb.GetComponent<Collider2D>().enabled = false; ;
+
+            //BombManager.DestroyABomb(originBomb);
         }
 
         ExplodeCell(originCell);
@@ -37,7 +34,7 @@ public class MapDestroyer : MonoBehaviour {
         tempCell = originCell;
         for (int i = 1; i <= level; i++)
         {
-            tempCell.x++;
+            tempCell.y++;
             if (ExplodeCell(tempCell) == false)
                 break;
         }
@@ -82,7 +79,7 @@ public class MapDestroyer : MonoBehaviour {
             return false;
         }
 
-        var player = CheckIsPlayerBeExplosed(cell);
+        var player = GetPlayerOnCell(cell);
         if(player != null)
         {
             player.Die();
@@ -92,9 +89,9 @@ public class MapDestroyer : MonoBehaviour {
         Instantiate(explosionPrefab, pos, Quaternion.identity);
 
         var bomb = GetBombFromCell(cell);
-        if(bomb != null && bomb.isExplose == false)
+        if(bomb != null && bomb.isExplosed == false)
         {
-            bomb.isExplose = true;
+            bomb.isExplosed = true;
             Explode(bomb.transform.position, bomb.GetLevel());
         }
 
@@ -102,23 +99,26 @@ public class MapDestroyer : MonoBehaviour {
         return true;
     }
 
-    private Bomb GetBombFromCell(Vector3Int cell)
+    public Bomb GetBombFromCell(Vector3Int cell)
     {
-        for (int i = 0; i < BombManager.bombs.Count; i++)
+        var bombs = GameObject.FindGameObjectsWithTag("Bomb");
+
+        for (int i = 0; i < bombs.Length; i++)
         {
-            var bomb = BombManager.GetBomb(i);
+            var bomb = bombs[i];
             var bombPos = bomb.transform.position;
             var cellOfBombOn = tilemap.WorldToCell(bombPos);
             if(cell == cellOfBombOn)
             {
-                return bomb;
+                return bomb.GetComponent<Bomb>();
             }
         }
         return null;
     }
 
-    private BombSpawner CheckIsPlayerBeExplosed(Vector3Int cell)
+    public BombSpawner GetPlayerOnCell(Vector3Int cell)
     {
+        var bombSpawners = GameObject.FindGameObjectsWithTag("Player");
         for (int i = 0; i < bombSpawners.Length; i++)
         {
             var cellOfPlayerOn = tilemap.WorldToCell(bombSpawners[i].transform.position);

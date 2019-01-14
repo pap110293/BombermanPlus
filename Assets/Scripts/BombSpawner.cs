@@ -1,22 +1,34 @@
 ﻿using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.Networking;
 
-public class BombSpawner : MonoBehaviour
+public class BombSpawner : NetworkBehaviour
 {
-
+    [HideInInspector]
     public Tilemap tilemap;
     public GameObject bombPrefab;
     public float moveSpeed = 1f;
     public int level = 1;
+    public int numberOfBomb = 2;
 
     private Camera mainCamera;
-    private Rigidbody2D rb;
+    private MapDestroyer mapDestroyer;
 
-    private void Awake()
+    public override void OnStartLocalPlayer()
     {
         mainCamera = Camera.main;
-        rb = GetComponent<Rigidbody2D>();
+        tilemap = GameObject.FindGameObjectWithTag("Tilemap").GetComponent<Tilemap>();
+        mapDestroyer = FindObjectOfType<MapDestroyer>();
         InitPosition();
+    }
+
+    public override void OnStartServer()
+    {
+        if (isServer)
+        {
+            tilemap = GameObject.FindGameObjectWithTag("Tilemap").GetComponent<Tilemap>();
+            mapDestroyer = FindObjectOfType<MapDestroyer>();
+        }
     }
 
     private void InitPosition()
@@ -28,9 +40,10 @@ public class BombSpawner : MonoBehaviour
 
     void Update()
     {
+        if (!isLocalPlayer) return;
 
         if (Input.GetKeyDown(KeyCode.Space))
-            CreateABomb();
+            CraeteABomb();
 
         var x = Input.GetAxis("Horizontal");
         var y = Input.GetAxis("Vertical");
@@ -54,12 +67,25 @@ public class BombSpawner : MonoBehaviour
         // TODO: need other way to move
     }
 
-    private void CreateABomb()
+    private void CraeteABomb()
     {
         var cell = tilemap.WorldToCell(transform.position);
+        var existedBomb = mapDestroyer.GetBombFromCell(cell);
+        if (existedBomb != null) return;
         var cellCenterPos = tilemap.GetCellCenterWorld(cell);
-        var bomb = BombManager.CreateABomb(bombPrefab, cellCenterPos);
-        //var bomb = Instantiate(bombPrefab, cellCenterPos, Quaternion.identity).GetComponent<Bomb>();
-        bomb.SetLevel(level);
+    }
+
+    [Command]
+    private void CmdCreateABomb(Vector3 pos)
+    {
+        var bomb = Instantiate(bombPrefab, pos, Quaternion.identity);
+        NetworkServer.Spawn(bomb);
+        RpcCreateABomb(bomb);
+    }
+
+    [ClientRpc]
+    private void RpcCreateABomb(GameObject bomb)
+    {
+        bomb.GetComponent<Bomb>().SetLevel(level);
     }
 }

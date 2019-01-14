@@ -21,10 +21,11 @@ GameObject:
   - component: {fileID: 4374926225652438}
   - component: {fileID: 212169332916474252}
   - component: {fileID: 114119033360644598}
-  - component: {fileID: 61169624536314354}
+  - component: {fileID: 58793079992800566}
+  - component: {fileID: 114331474671180556}
   m_Layer: 0
   m_Name: Bomb
-  m_TagString: Untagged
+  m_TagString: Bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,8 +43,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61169624536314354
-BoxCollider2D:
+--- !u!58 &58793079992800566
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -55,18 +56,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8, y: 0.8}
-    newSize: {x: 0.8, y: 0.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Radius: 0.4
 --- !u!114 &114119033360644598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -79,7 +70,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdown: 2
-  level: 1
+  isExplosed: 0
+--- !u!114 &114331474671180556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581530702789938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 99
+    i1: 136
+    i2: 163
+    i3: 82
+    i4: 78
+    i5: 194
+    i6: 169
+    i7: 212
+    i8: 11
+    i9: 22
+    i10: 124
+    i11: 84
+    i12: 217
+    i13: 217
+    i14: 194
+    i15: 211
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!212 &212169332916474252
 SpriteRenderer:
   m_ObjectHideFlags: 1
