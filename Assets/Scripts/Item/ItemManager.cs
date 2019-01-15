@@ -8,7 +8,7 @@ public class ItemManager : NetworkBehaviour {
     public GameObject[] items;
 
 	[Command]
-    public void CmdSpawItem(Vector3 position)
+    public void CmdSpawRandomItem(Vector3 position)
     {
         var randomItem = items[Random.Range(0, items.Length)];
         var item = Instantiate(randomItem, position, Quaternion.identity);

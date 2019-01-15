@@ -14,10 +14,4 @@ public abstract class Item : MonoBehaviour
     }
 
     protected abstract void ItemEffectToPlayer(BombSpawner player);
-
-    //[Command]
-    //protected abstract void CmdExecute(GameObject player);
-
-    //[ClientRpc]
-    //protected abstract void RpcExecute(GameObject player);
 }

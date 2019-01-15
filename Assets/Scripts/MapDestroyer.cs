@@ -12,10 +12,17 @@ public class MapDestroyer : MonoBehaviour {
     public Tile destructableTile;
     public GameObject explosionPrefab;
 
+    private ItemManager itemManager;
+
+    private void Start()
+    {
+        itemManager = FindObjectOfType<ItemManager>();
+    }
+
     public void Explode(Vector2 worldPos, int level)
     {
-        var originCell = tilemap.WorldToCell(worldPos);
-        var originBomb = GetBombFromCell(originCell);
+        Vector3Int originCell = tilemap.WorldToCell(worldPos);
+        Bomb originBomb = GetBombFromCell(originCell);
 
         if (originBomb != null)
         {
@@ -68,25 +75,27 @@ public class MapDestroyer : MonoBehaviour {
     private bool ExplodeCell(Vector3Int cell)
     {
         Tile tile = tilemap.GetTile<Tile>(cell);
+        Vector3 cellPosition = tilemap.GetCellCenterWorld(cell);
+
         if (tile == wallTile)
             return false;
 
         if(tile == destructableTile)
         {
+            itemManager.CmdSpawRandomItem(cellPosition);
             tilemap.SetTile(cell, null); // remove the tile
             return false;
         }
 
-        var player = GetPlayerOnCell(cell);
+        BombSpawner player = GetPlayerOnCell(cell);
         if(player != null)
         {
             player.Die();
         }
 
-        var pos = tilemap.GetCellCenterWorld(cell);
-        Instantiate(explosionPrefab, pos, Quaternion.identity);
+        Instantiate(explosionPrefab, cellPosition, Quaternion.identity);
 
-        var bomb = GetBombFromCell(cell);
+        Bomb bomb = GetBombFromCell(cell);
         if(bomb != null && bomb.isExplosed == false)
         {
             bomb.isExplosed = true;
@@ -99,13 +108,13 @@ public class MapDestroyer : MonoBehaviour {
 
     public Bomb GetBombFromCell(Vector3Int cell)
     {
-        var bombs = GameObject.FindGameObjectsWithTag("Bomb");
+        GameObject[] bombs = GameObject.FindGameObjectsWithTag("Bomb");
 
         for (int i = 0; i < bombs.Length; i++)
         {
-            var bomb = bombs[i];
-            var bombPos = bomb.transform.position;
-            var cellOfBombOn = tilemap.WorldToCell(bombPos);
+            GameObject bomb = bombs[i];
+            Vector3 bombPos = bomb.transform.position;
+            Vector3Int cellOfBombOn = tilemap.WorldToCell(bombPos);
             if(cell == cellOfBombOn)
             {
                 return bomb.GetComponent<Bomb>();
@@ -116,10 +125,10 @@ public class MapDestroyer : MonoBehaviour {
 
     public BombSpawner GetPlayerOnCell(Vector3Int cell)
     {
-        var bombSpawners = GameObject.FindGameObjectsWithTag("Player");
+        GameObject[] bombSpawners = GameObject.FindGameObjectsWithTag("Player");
         for (int i = 0; i < bombSpawners.Length; i++)
         {
-            var cellOfPlayerOn = tilemap.WorldToCell(bombSpawners[i].transform.position);
+            Vector3Int cellOfPlayerOn = tilemap.WorldToCell(bombSpawners[i].transform.position);
             if (cell == cellOfPlayerOn)
             {
                 return bombSpawners[i].GetComponent<BombSpawner>();

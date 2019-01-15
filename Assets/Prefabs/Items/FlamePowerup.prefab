@@ -99,7 +99,7 @@ MonoBehaviour:
     i14: 55
     i15: 107
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114814168101101444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b40f0fc28909849479c08157caf66023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  addPower: 1
 --- !u!212 &212119405754991310
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -145,7 +146,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 09235afe9941a2b40a091e6e84301ee0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
