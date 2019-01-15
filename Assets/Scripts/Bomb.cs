@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour {
 
+    public BombSpawner Owner { get; set; }
+
     public float countdown = 2f;
     public bool isExplosed = false;
+
 
     private int level;
     private MapDestroyer mapDestroyer;
@@ -21,10 +24,9 @@ public class Bomb : MonoBehaviour {
 
         if(countdown <= 0)
         {
-            Destroy(gameObject);
-            if(isExplosed == false)
+            if (isExplosed == false)
                 mapDestroyer.Explode(transform.position, level);
-            //BombManager.DestroyABomb(this);
+            Destroy(gameObject);
         }
 	}
 
@@ -40,7 +42,7 @@ public class Bomb : MonoBehaviour {
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             GetComponent<Collider2D>().isTrigger = false;
         }

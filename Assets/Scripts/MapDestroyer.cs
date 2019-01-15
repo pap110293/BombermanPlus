@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Tilemaps;
 
-public class MapDestroyer : NetworkBehaviour {
+public class MapDestroyer : MonoBehaviour {
 
     public Tilemap tilemap;
     public Tile wallTile;
@@ -22,8 +22,6 @@ public class MapDestroyer : NetworkBehaviour {
             originBomb.isExplosed = true;
             originBomb.GetComponent<SpriteRenderer>().enabled = false;
             originBomb.GetComponent<Collider2D>().enabled = false; ;
-
-            //BombManager.DestroyABomb(originBomb);
         }
 
         ExplodeCell(originCell);

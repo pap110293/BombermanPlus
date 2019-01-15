@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.Networking;
+using System.Collections.Generic;
+using System.Linq;
 
 public class BombSpawner : NetworkBehaviour
 {
@@ -9,26 +11,15 @@ public class BombSpawner : NetworkBehaviour
     public GameObject bombPrefab;
     public float moveSpeed = 1f;
     public int level = 1;
-    public int numberOfBomb = 2;
+    public int maxNumberOfBomb = 2;
 
-    private Camera mainCamera;
     private MapDestroyer mapDestroyer;
 
     public override void OnStartLocalPlayer()
     {
-        mainCamera = Camera.main;
         tilemap = GameObject.FindGameObjectWithTag("Tilemap").GetComponent<Tilemap>();
         mapDestroyer = FindObjectOfType<MapDestroyer>();
         InitPosition();
-    }
-
-    public override void OnStartServer()
-    {
-        if (isServer)
-        {
-            tilemap = GameObject.FindGameObjectWithTag("Tilemap").GetComponent<Tilemap>();
-            mapDestroyer = FindObjectOfType<MapDestroyer>();
-        }
     }
 
     private void InitPosition()
@@ -71,8 +62,10 @@ public class BombSpawner : NetworkBehaviour
     {
         var cell = tilemap.WorldToCell(transform.position);
         var existedBomb = mapDestroyer.GetBombFromCell(cell);
-        if (existedBomb != null) return;
+        var myBombs = FindObjectsOfType<Bomb>().Where(i => i.Owner == this);
+        if (existedBomb != null || myBombs.Count() >= maxNumberOfBomb) return;
         var cellCenterPos = tilemap.GetCellCenterWorld(cell);
+        CmdCreateABomb(cellCenterPos);
     }
 
     [Command]
@@ -84,8 +77,10 @@ public class BombSpawner : NetworkBehaviour
     }
 
     [ClientRpc]
-    private void RpcCreateABomb(GameObject bomb)
+    private void RpcCreateABomb(GameObject bombObj)
     {
-        bomb.GetComponent<Bomb>().SetLevel(level);
+        var bomb = bombObj.GetComponent<Bomb>();
+        bomb.Owner = this;
+        bomb.SetLevel(level);
     }
 }
