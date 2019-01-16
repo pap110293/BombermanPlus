@@ -1,22 +1,65 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Tilemaps;
 
-public class MapDestroyer : MonoBehaviour {
+public class MapManager : NetworkBehaviour
+{
 
     public Tilemap tilemap;
     public Tile wallTile;
     public Tile destructableTile;
     public GameObject explosionPrefab;
+    [HideInInspector]
+    public SyncListCell DestructablTileOnMap = new SyncListCell();
 
     private ItemManager itemManager;
+
+    private const int ROW = 11;
+    private const int COL = 15;
 
     private void Start()
     {
         itemManager = FindObjectOfType<ItemManager>();
+    }
+
+    public override void OnStartClient()
+    {
+        if (DestructablTileOnMap.Count == 0)
+            GetListCellToCreateDestructableTile();
+    }
+
+    public void CreateRandomMap()
+    {
+        for (int i = 0; i < DestructablTileOnMap.Count; i++)
+        {
+            tilemap.SetTile(DestructablTileOnMap[i].Cell, destructableTile);
+        }
+    }
+
+    private void GetListCellToCreateDestructableTile()
+    {
+        var startCellTrans = FindObjectOfType<NetworkStartPosition>().transform;
+        var startCell = tilemap.WorldToCell(startCellTrans.position);
+        var listValidCell = new List<Vector3Int>();
+        for (int i = 0; i < ROW; i++)
+        {
+            for (int j = 0; j < COL; j++)
+            {
+                var tempCell = new Vector3Int(startCell.x + j, startCell.y + i, startCell.z);
+                Tile tile = tilemap.GetTile<Tile>(tempCell);
+                if (tile == null)
+                    listValidCell.Add(tempCell);
+            }
+        }
+
+        for (int i = 0; i < listValidCell.Count * 40 / 100; i++)
+        {
+            int index = Random.Range(0, listValidCell.Count);
+            var tempCell = listValidCell[index];
+            DestructablTileOnMap.Add(new StructCell { Cell = tempCell});
+            listValidCell.Remove(tempCell);
+        }
     }
 
     public void Explode(Vector2 worldPos, int level)
@@ -80,7 +123,7 @@ public class MapDestroyer : MonoBehaviour {
         if (tile == wallTile)
             return false;
 
-        if(tile == destructableTile)
+        if (tile == destructableTile)
         {
             itemManager.CmdSpawRandomItem(cellPosition);
             tilemap.SetTile(cell, null); // remove the tile
@@ -88,7 +131,7 @@ public class MapDestroyer : MonoBehaviour {
         }
 
         BombSpawner player = GetPlayerOnCell(cell);
-        if(player != null)
+        if (player != null)
         {
             player.Die();
         }
@@ -96,7 +139,7 @@ public class MapDestroyer : MonoBehaviour {
         Instantiate(explosionPrefab, cellPosition, Quaternion.identity);
 
         Bomb bomb = GetBombFromCell(cell);
-        if(bomb != null && bomb.isExplosed == false)
+        if (bomb != null && bomb.isExplosed == false)
         {
             bomb.isExplosed = true;
             Explode(bomb.transform.position, bomb.GetLevel());
@@ -115,7 +158,7 @@ public class MapDestroyer : MonoBehaviour {
             GameObject bomb = bombs[i];
             Vector3 bombPos = bomb.transform.position;
             Vector3Int cellOfBombOn = tilemap.WorldToCell(bombPos);
-            if(cell == cellOfBombOn)
+            if (cell == cellOfBombOn)
             {
                 return bomb.GetComponent<Bomb>();
             }
@@ -137,4 +180,11 @@ public class MapDestroyer : MonoBehaviour {
 
         return null;
     }
+
+    public struct StructCell
+    {
+        public Vector3Int Cell { get; set; }
+    }
+
+    public class SyncListCell : SyncListStruct<StructCell> { }
 }

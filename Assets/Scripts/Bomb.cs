@@ -11,11 +11,11 @@ public class Bomb : MonoBehaviour {
 
 
     private int level;
-    private MapDestroyer mapDestroyer;
+    private MapManager mapDestroyer;
 
     private void Start()
     {
-        mapDestroyer = FindObjectOfType<MapDestroyer>();
+        mapDestroyer = FindObjectOfType<MapManager>();
     }
 
     // Update is called once per frame

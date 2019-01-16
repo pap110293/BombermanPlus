@@ -13,19 +13,37 @@ public class BombSpawner : NetworkBehaviour
     public int level = 1;
     public int maxNumberOfBomb = 2;
 
-    private MapDestroyer mapDestroyer;
+    private MapManager mapManager;
+
+    private const int ROW = 11;
+    private const int COL = 15;
 
     public override void OnStartLocalPlayer()
     {
         tilemap = GameObject.FindGameObjectWithTag("Tilemap").GetComponent<Tilemap>();
-        mapDestroyer = FindObjectOfType<MapDestroyer>();
+        mapManager = FindObjectOfType<MapManager>();
+        mapManager.CreateRandomMap();
         InitPosition();
     }
 
     private void InitPosition()
     {
-        var cell = tilemap.WorldToCell(transform.position);
-        var cellCenterPos = tilemap.GetCellCenterWorld(cell);
+        var startCellTrans = FindObjectOfType<NetworkStartPosition>().transform;
+        var startCell = tilemap.WorldToCell(startCellTrans.position);
+        var listValidCell = new List<Vector3Int>();
+        for (int i = 0; i < ROW; i++)
+        {
+            for (int j = 0; j < COL; j++)
+            {
+                var tempCell = new Vector3Int(startCell.x + j, startCell.y + i, startCell.z);
+                Tile tile = tilemap.GetTile<Tile>(tempCell);
+                if (tile == null)
+                    listValidCell.Add(tempCell);
+            }
+        }
+        var randomCell = listValidCell[Random.Range(0, listValidCell.Count)];
+        //var cell = tilemap.WorldToCell(transform.position);
+        var cellCenterPos = tilemap.GetCellCenterWorld(randomCell);
         transform.position = cellCenterPos;
     }
 
@@ -34,7 +52,7 @@ public class BombSpawner : NetworkBehaviour
         if (!isLocalPlayer) return;
 
         if (Input.GetKeyDown(KeyCode.Space))
-            CraeteABomb();
+            CreateABomb();
 
         var x = Input.GetAxis("Horizontal");
         var y = Input.GetAxis("Vertical");
@@ -58,12 +76,25 @@ public class BombSpawner : NetworkBehaviour
         // TODO: need other way to move
     }
 
-    private void CraeteABomb()
+    private void CreateABomb(Vector3 position)
     {
+        CmdCreateABomb(position);
+    }
+
+    private void CreateABomb(Vector3Int cell)
+    {
+        CmdCreateABomb(tilemap.GetCellCenterWorld(cell));
+    }
+
+    private void CreateABomb()
+    {
+        // check can player put a bomb
         var cell = tilemap.WorldToCell(transform.position);
-        var existedBomb = mapDestroyer.GetBombFromCell(cell);
+        var existedBomb = mapManager.GetBombFromCell(cell);
         var myBombs = FindObjectsOfType<Bomb>().Where(i => i.Owner == this);
         if (existedBomb != null || myBombs.Count() >= maxNumberOfBomb) return;
+        // end check
+
         var cellCenterPos = tilemap.GetCellCenterWorld(cell);
         CmdCreateABomb(cellCenterPos);
     }
@@ -79,6 +110,7 @@ public class BombSpawner : NetworkBehaviour
     [ClientRpc]
     private void RpcCreateABomb(GameObject bombObj)
     {
+        // set some value for the bomb affter be created
         var bomb = bombObj.GetComponent<Bomb>();
         bomb.Owner = this;
         bomb.SetLevel(level);
