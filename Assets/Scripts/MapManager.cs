@@ -10,7 +10,6 @@ public class MapManager : NetworkBehaviour
     public Tile wallTile;
     public Tile destructableTile;
     public GameObject explosionPrefab;
-    [HideInInspector]
     public SyncListCell DestructablTileOnMap = new SyncListCell();
 
     private ItemManager itemManager;
@@ -33,7 +32,8 @@ public class MapManager : NetworkBehaviour
     {
         for (int i = 0; i < DestructablTileOnMap.Count; i++)
         {
-            tilemap.SetTile(DestructablTileOnMap[i].Cell, destructableTile);
+            var cell = Vector3Int.FloorToInt(DestructablTileOnMap[i].cell);
+            tilemap.SetTile(cell, destructableTile);
         }
     }
 
@@ -57,7 +57,7 @@ public class MapManager : NetworkBehaviour
         {
             int index = Random.Range(0, listValidCell.Count);
             var tempCell = listValidCell[index];
-            DestructablTileOnMap.Add(new StructCell { Cell = tempCell});
+            DestructablTileOnMap.Add(new StructCell { cell = tempCell});
             listValidCell.Remove(tempCell);
         }
     }
@@ -183,7 +183,7 @@ public class MapManager : NetworkBehaviour
 
     public struct StructCell
     {
-        public Vector3Int Cell { get; set; }
+        public Vector3 cell;
     }
 
     public class SyncListCell : SyncListStruct<StructCell> { }

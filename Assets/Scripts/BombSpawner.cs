@@ -6,7 +6,10 @@ using System.Linq;
 
 public class BombSpawner : NetworkBehaviour
 {
-    [HideInInspector]
+    public static int playerNumber = 0;
+    [SyncVar(hook = "onCurrentPlayerNumberChanged")]
+    public int currenPlayerNumber = 0;
+
     public Tilemap tilemap;
     public GameObject bombPrefab;
     public float moveSpeed = 1f;
@@ -20,10 +23,23 @@ public class BombSpawner : NetworkBehaviour
 
     public override void OnStartLocalPlayer()
     {
+        CmdLogIn();
         tilemap = GameObject.FindGameObjectWithTag("Tilemap").GetComponent<Tilemap>();
         mapManager = FindObjectOfType<MapManager>();
         mapManager.CreateRandomMap();
         InitPosition();
+    }
+
+    [Command]
+    private void CmdLogIn()
+    {
+        playerNumber++;
+        currenPlayerNumber = playerNumber;
+    }
+
+    private void onCurrentPlayerNumberChanged(int newPlayerNumber)
+    {
+        this.currenPlayerNumber = newPlayerNumber;
     }
 
     private void InitPosition()
@@ -42,7 +58,6 @@ public class BombSpawner : NetworkBehaviour
             }
         }
         var randomCell = listValidCell[Random.Range(0, listValidCell.Count)];
-        //var cell = tilemap.WorldToCell(transform.position);
         var cellCenterPos = tilemap.GetCellCenterWorld(randomCell);
         transform.position = cellCenterPos;
     }
@@ -76,43 +91,43 @@ public class BombSpawner : NetworkBehaviour
         // TODO: need other way to move
     }
 
-    private void CreateABomb(Vector3 position)
+    public void CreateABomb(Vector3 position)
     {
-        CmdCreateABomb(position);
+        CmdCreateABomb(position, level, currenPlayerNumber);
     }
 
-    private void CreateABomb(Vector3Int cell)
+    public void CreateABomb(Vector3Int cell)
     {
-        CmdCreateABomb(tilemap.GetCellCenterWorld(cell));
+        CmdCreateABomb(tilemap.GetCellCenterWorld(cell), level, currenPlayerNumber);
     }
 
-    private void CreateABomb()
+    public void CreateABomb()
     {
         // check can player put a bomb
         var cell = tilemap.WorldToCell(transform.position);
         var existedBomb = mapManager.GetBombFromCell(cell);
-        var myBombs = FindObjectsOfType<Bomb>().Where(i => i.Owner == this);
+        var myBombs = FindObjectsOfType<Bomb>().Where(i => i.playerNumber == currenPlayerNumber);
         if (existedBomb != null || myBombs.Count() >= maxNumberOfBomb) return;
         // end check
 
         var cellCenterPos = tilemap.GetCellCenterWorld(cell);
-        CmdCreateABomb(cellCenterPos);
+        CmdCreateABomb(cellCenterPos, level, currenPlayerNumber);
     }
 
     [Command]
-    private void CmdCreateABomb(Vector3 pos)
+    private void CmdCreateABomb(Vector3 pos, int bombLevel, int playerNumber)
     {
-        var bomb = Instantiate(bombPrefab, pos, Quaternion.identity);
-        NetworkServer.Spawn(bomb);
-        RpcCreateABomb(bomb);
+        var bombObj = Instantiate(bombPrefab, pos, Quaternion.identity);
+        NetworkServer.Spawn(bombObj);
+        RpcCreateABomb(bombObj, bombLevel, playerNumber);
     }
 
     [ClientRpc]
-    private void RpcCreateABomb(GameObject bombObj)
+    private void RpcCreateABomb(GameObject bombObj, int bombLevel, int playerNumber)
     {
         // set some value for the bomb affter be created
         var bomb = bombObj.GetComponent<Bomb>();
-        bomb.Owner = this;
-        bomb.SetLevel(level);
+        bomb.playerNumber = playerNumber;
+        bomb.SetLevel(bombLevel);
     }
 }

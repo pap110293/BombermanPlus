@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bomb : MonoBehaviour {
-
-    public BombSpawner Owner { get; set; }
-
+public class Bomb : MonoBehaviour
+{
     public float countdown = 2f;
     public bool isExplosed = false;
+    [HideInInspector]
+    public int playerNumber;
 
 
     private int level;
