@@ -60,7 +60,7 @@ GameObject:
   - component: {fileID: 114999421548554174}
   - component: {fileID: 114440325236800306}
   m_Layer: 0
-  m_Name: GameGround
+  m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

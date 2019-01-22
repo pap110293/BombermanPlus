@@ -25,10 +25,10 @@ public class MapManager : NetworkBehaviour
     public override void OnStartClient()
     {
         if (DestructablTileOnMap.Count == 0)
-            GetListCellToCreateDestructableTile();
+            InitDestructableOnTheMap();
     }
 
-    public void CreateRandomMap()
+    public void CreateMap()
     {
         for (int i = 0; i < DestructablTileOnMap.Count; i++)
         {
@@ -37,7 +37,41 @@ public class MapManager : NetworkBehaviour
         }
     }
 
-    private void GetListCellToCreateDestructableTile()
+    [Command]
+    public void CmdRebuildTheMap()
+    {
+        RpcRebuildTheMap();
+    }
+
+    [ClientRpc]
+    public void RpcRebuildTheMap()
+    {
+        RebuildTheMap();
+    }
+
+    public void RebuildTheMap()
+    {
+        ClearTheMap();
+        CreateMap();
+    }
+
+    public void ClearTheMap()
+    {
+        var startCellTrans = FindObjectOfType<NetworkStartPosition>().transform;
+        var startCell = tilemap.WorldToCell(startCellTrans.position);
+        for (int i = 0; i < ROW; i++)
+        {
+            for (int j = 0; j < COL; j++)
+            {
+                var tempCell = new Vector3Int(startCell.x + j, startCell.y + i, startCell.z);
+                Tile tile = tilemap.GetTile<Tile>(tempCell);
+                if (tile == destructableTile)
+                    tilemap.SetTile(tempCell, null);
+            }
+        }
+    }
+
+    public void InitDestructableOnTheMap()
     {
         var startCellTrans = FindObjectOfType<NetworkStartPosition>().transform;
         var startCell = tilemap.WorldToCell(startCellTrans.position);
@@ -53,6 +87,7 @@ public class MapManager : NetworkBehaviour
             }
         }
 
+        DestructablTileOnMap.Clear();
         for (int i = 0; i < listValidCell.Count * 40 / 100; i++)
         {
             int index = Random.Range(0, listValidCell.Count);

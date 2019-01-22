@@ -10,13 +10,12 @@ public class BombSpawner : NetworkBehaviour
     [SyncVar(hook = "onCurrentPlayerNumberChanged")]
     public int currenPlayerNumber = 0;
 
-    public Tilemap tilemap;
     public GameObject bombPrefab;
-    public float moveSpeed = 1f;
+    public float moveSpeed = 5f;
     public int level = 1;
     public int maxNumberOfBomb = 2;
 
-    private MapManager mapManager;
+    private static GameMaster gameMaster;
 
     private const int ROW = 11;
     private const int COL = 15;
@@ -24,9 +23,9 @@ public class BombSpawner : NetworkBehaviour
     public override void OnStartLocalPlayer()
     {
         CmdLogIn();
-        tilemap = GameObject.FindGameObjectWithTag("Tilemap").GetComponent<Tilemap>();
-        mapManager = FindObjectOfType<MapManager>();
-        mapManager.CreateRandomMap();
+        gameMaster = FindObjectOfType<GameMaster>();
+        gameMaster.SetLocalPlayer(this);
+        gameMaster.mapManager.CreateMap();
         InitPosition();
     }
 
@@ -45,26 +44,26 @@ public class BombSpawner : NetworkBehaviour
     private void InitPosition()
     {
         var startCellTrans = FindObjectOfType<NetworkStartPosition>().transform;
-        var startCell = tilemap.WorldToCell(startCellTrans.position);
+        var startCell = gameMaster.gamePlayerTilemap.WorldToCell(startCellTrans.position);
         var listValidCell = new List<Vector3Int>();
         for (int i = 0; i < ROW; i++)
         {
             for (int j = 0; j < COL; j++)
             {
                 var tempCell = new Vector3Int(startCell.x + j, startCell.y + i, startCell.z);
-                Tile tile = tilemap.GetTile<Tile>(tempCell);
+                Tile tile = gameMaster.gamePlayerTilemap.GetTile<Tile>(tempCell);
                 if (tile == null)
                     listValidCell.Add(tempCell);
             }
         }
         var randomCell = listValidCell[Random.Range(0, listValidCell.Count)];
-        var cellCenterPos = tilemap.GetCellCenterWorld(randomCell);
+        var cellCenterPos = gameMaster.gamePlayerTilemap.GetCellCenterWorld(randomCell);
         transform.position = cellCenterPos;
     }
 
     void Update()
     {
-        if (!isLocalPlayer) return;
+        if (isLocalPlayer == false || gameMaster.isGameOver) return;
 
         if (Input.GetKeyDown(KeyCode.Space))
             CreateABomb();
@@ -77,8 +76,8 @@ public class BombSpawner : NetworkBehaviour
 
     public void Die()
     {
-        // TODO: player die
-        Debug.Log("die");
+        if (gameMaster.isGameOver == false)
+            gameMaster.GameOver(this);
     }
 
     private void Move(float horizontal, float vertical)
@@ -98,20 +97,35 @@ public class BombSpawner : NetworkBehaviour
 
     public void CreateABomb(Vector3Int cell)
     {
-        CmdCreateABomb(tilemap.GetCellCenterWorld(cell), level, currenPlayerNumber);
+        CmdCreateABomb(gameMaster.gamePlayerTilemap.GetCellCenterWorld(cell), level, currenPlayerNumber);
     }
 
     public void CreateABomb()
     {
         // check can player put a bomb
-        var cell = tilemap.WorldToCell(transform.position);
-        var existedBomb = mapManager.GetBombFromCell(cell);
+        var cell = gameMaster.gamePlayerTilemap.WorldToCell(transform.position);
+        var existedBomb = gameMaster.mapManager.GetBombFromCell(cell);
         var myBombs = FindObjectsOfType<Bomb>().Where(i => i.playerNumber == currenPlayerNumber);
         if (existedBomb != null || myBombs.Count() >= maxNumberOfBomb) return;
         // end check
 
-        var cellCenterPos = tilemap.GetCellCenterWorld(cell);
+        var cellCenterPos = gameMaster.gamePlayerTilemap.GetCellCenterWorld(cell);
         CmdCreateABomb(cellCenterPos, level, currenPlayerNumber);
+    }
+
+    [Command]
+    public void CmdResetPlayer()
+    {
+        RpcResetPlayer();
+    }
+
+    [ClientRpc]
+    private void RpcResetPlayer()
+    {
+        moveSpeed = 5f;
+        level = 1;
+        maxNumberOfBomb = 2;
+        InitPosition();
     }
 
     [Command]

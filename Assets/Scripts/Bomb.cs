@@ -26,7 +26,7 @@ public class Bomb : MonoBehaviour
         {
             if (isExplosed == false)
                 mapDestroyer.Explode(transform.position, level);
-            Destroy(gameObject);
+            Destroy(gameObject,1f);
         }
 	}
 

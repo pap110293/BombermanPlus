@@ -18,4 +18,20 @@ public class ItemManager : NetworkBehaviour
             NetworkServer.Spawn(item);
         }
     }
+
+    [Command]
+    public void CmdRemoveAllItem()
+    {
+        RpcRemoveAllItem();
+    }
+
+    [ClientRpc]
+    private void RpcRemoveAllItem()
+    {
+        var allItemOnMap = FindObjectsOfType<Item>();
+        for (int i = 0; i < allItemOnMap.Length; i++)
+        {
+            Destroy(allItemOnMap[i].gameObject);
+        }
+    }
 }
