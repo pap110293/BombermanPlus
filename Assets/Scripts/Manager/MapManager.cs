@@ -9,6 +9,8 @@ public class MapManager : NetworkBehaviour
     public Tilemap tilemap;
     public Tile wallTile;
     public Tile destructableTile;
+    [Range(40,70)]
+    public int density = 50;
     public GameObject explosionPrefab;
     public SyncListCell DestructablTileOnMap = new SyncListCell();
 
@@ -44,12 +46,7 @@ public class MapManager : NetworkBehaviour
     }
 
     [ClientRpc]
-    public void RpcRebuildTheMap()
-    {
-        RebuildTheMap();
-    }
-
-    public void RebuildTheMap()
+    private void RpcRebuildTheMap()
     {
         ClearTheMap();
         CreateMap();
@@ -88,7 +85,7 @@ public class MapManager : NetworkBehaviour
         }
 
         DestructablTileOnMap.Clear();
-        for (int i = 0; i < listValidCell.Count * 40 / 100; i++)
+        for (int i = 0; i < listValidCell.Count * density / 100; i++)
         {
             int index = Random.Range(0, listValidCell.Count);
             var tempCell = listValidCell[index];

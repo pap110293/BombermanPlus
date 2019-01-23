@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -62,11 +60,6 @@ public class GameMaster : NetworkBehaviour
 
     [ClientRpc]
     private void RpcResetUI()
-    {
-        ResetUI();
-    }
-
-    private void ResetUI()
     {
         winPanel.SetActive(false);
         losePanel.SetActive(false);

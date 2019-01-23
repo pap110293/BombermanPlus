@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Loppy.unity
-    guid: 0e2499cf377802a4fa2a42bce5d060ad
   - enabled: 1
     path: Assets/Bomberman.unity
     guid: c8346bd9d0d56c34ab9591563d43368a
+  - enabled: 1
+    path: Assets/Loppy.unity
+    guid: 0e2499cf377802a4fa2a42bce5d060ad
   m_configObjects: {}

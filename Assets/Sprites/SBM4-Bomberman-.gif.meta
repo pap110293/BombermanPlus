@@ -1,0 +1,4153 @@
+fileFormatVersion: 2
+guid: 43385266694543548801c000cc48aa73
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SBM4-Bomberman-_0
+    21300002: SBM4-Bomberman-_1
+    21300004: SBM4-Bomberman-_2
+    21300006: SBM4-Bomberman-_3
+    21300008: SBM4-Bomberman-_4
+    21300010: SBM4-Bomberman-_5
+    21300012: SBM4-Bomberman-_6
+    21300014: SBM4-Bomberman-_7
+    21300016: SBM4-Bomberman-_8
+    21300018: SBM4-Bomberman-_9
+    21300020: SBM4-Bomberman-_10
+    21300022: SBM4-Bomberman-_11
+    21300024: SBM4-Bomberman-_12
+    21300026: SBM4-Bomberman-_13
+    21300028: SBM4-Bomberman-_14
+    21300030: SBM4-Bomberman-_15
+    21300032: SBM4-Bomberman-_16
+    21300034: SBM4-Bomberman-_17
+    21300036: SBM4-Bomberman-_18
+    21300038: SBM4-Bomberman-_19
+    21300040: SBM4-Bomberman-_20
+    21300042: SBM4-Bomberman-_21
+    21300044: SBM4-Bomberman-_22
+    21300046: SBM4-Bomberman-_23
+    21300048: SBM4-Bomberman-_24
+    21300050: SBM4-Bomberman-_25
+    21300052: SBM4-Bomberman-_26
+    21300054: SBM4-Bomberman-_27
+    21300056: SBM4-Bomberman-_28
+    21300058: SBM4-Bomberman-_29
+    21300060: SBM4-Bomberman-_30
+    21300062: SBM4-Bomberman-_31
+    21300064: SBM4-Bomberman-_32
+    21300066: SBM4-Bomberman-_33
+    21300068: SBM4-Bomberman-_34
+    21300070: SBM4-Bomberman-_35
+    21300072: SBM4-Bomberman-_36
+    21300074: SBM4-Bomberman-_37
+    21300076: SBM4-Bomberman-_38
+    21300078: SBM4-Bomberman-_39
+    21300080: SBM4-Bomberman-_40
+    21300082: SBM4-Bomberman-_41
+    21300084: SBM4-Bomberman-_42
+    21300086: SBM4-Bomberman-_43
+    21300088: SBM4-Bomberman-_44
+    21300090: SBM4-Bomberman-_45
+    21300092: SBM4-Bomberman-_46
+    21300094: SBM4-Bomberman-_47
+    21300096: SBM4-Bomberman-_48
+    21300098: SBM4-Bomberman-_49
+    21300100: SBM4-Bomberman-_50
+    21300102: SBM4-Bomberman-_51
+    21300104: SBM4-Bomberman-_52
+    21300106: SBM4-Bomberman-_53
+    21300108: SBM4-Bomberman-_54
+    21300110: SBM4-Bomberman-_55
+    21300112: SBM4-Bomberman-_56
+    21300114: SBM4-Bomberman-_57
+    21300116: SBM4-Bomberman-_58
+    21300118: SBM4-Bomberman-_59
+    21300120: SBM4-Bomberman-_60
+    21300122: SBM4-Bomberman-_61
+    21300124: SBM4-Bomberman-_62
+    21300126: SBM4-Bomberman-_63
+    21300128: SBM4-Bomberman-_64
+    21300130: SBM4-Bomberman-_65
+    21300132: SBM4-Bomberman-_66
+    21300134: SBM4-Bomberman-_67
+    21300136: SBM4-Bomberman-_68
+    21300138: SBM4-Bomberman-_69
+    21300140: SBM4-Bomberman-_70
+    21300142: SBM4-Bomberman-_71
+    21300144: SBM4-Bomberman-_72
+    21300146: SBM4-Bomberman-_73
+    21300148: SBM4-Bomberman-_74
+    21300150: SBM4-Bomberman-_75
+    21300152: SBM4-Bomberman-_76
+    21300154: SBM4-Bomberman-_77
+    21300156: SBM4-Bomberman-_78
+    21300158: SBM4-Bomberman-_79
+    21300160: SBM4-Bomberman-_80
+    21300162: SBM4-Bomberman-_81
+    21300164: SBM4-Bomberman-_82
+    21300166: SBM4-Bomberman-_83
+    21300168: SBM4-Bomberman-_84
+    21300170: SBM4-Bomberman-_85
+    21300172: SBM4-Bomberman-_86
+    21300174: SBM4-Bomberman-_87
+    21300176: SBM4-Bomberman-_88
+    21300178: SBM4-Bomberman-_89
+    21300180: SBM4-Bomberman-_90
+    21300182: SBM4-Bomberman-_91
+    21300184: SBM4-Bomberman-_92
+    21300186: SBM4-Bomberman-_93
+    21300188: SBM4-Bomberman-_94
+    21300190: SBM4-Bomberman-_95
+    21300192: SBM4-Bomberman-_96
+    21300194: SBM4-Bomberman-_97
+    21300196: SBM4-Bomberman-_98
+    21300198: SBM4-Bomberman-_99
+    21300200: SBM4-Bomberman-_100
+    21300202: SBM4-Bomberman-_101
+    21300204: SBM4-Bomberman-_102
+    21300206: SBM4-Bomberman-_103
+    21300208: SBM4-Bomberman-_104
+    21300210: SBM4-Bomberman-_105
+    21300212: SBM4-Bomberman-_106
+    21300214: SBM4-Bomberman-_107
+    21300216: SBM4-Bomberman-_108
+    21300218: SBM4-Bomberman-_109
+    21300220: SBM4-Bomberman-_110
+    21300222: SBM4-Bomberman-_111
+    21300224: SBM4-Bomberman-_112
+    21300226: SBM4-Bomberman-_113
+    21300228: SBM4-Bomberman-_114
+    21300230: SBM4-Bomberman-_115
+    21300232: SBM4-Bomberman-_116
+    21300234: SBM4-Bomberman-_117
+    21300236: SBM4-Bomberman-_118
+    21300238: SBM4-Bomberman-_119
+    21300240: SBM4-Bomberman-_120
+    21300242: SBM4-Bomberman-_121
+    21300244: SBM4-Bomberman-_122
+    21300246: SBM4-Bomberman-_123
+    21300248: SBM4-Bomberman-_124
+    21300250: SBM4-Bomberman-_125
+    21300252: SBM4-Bomberman-_126
+    21300254: SBM4-Bomberman-_127
+    21300256: SBM4-Bomberman-_128
+    21300258: SBM4-Bomberman-_129
+    21300260: SBM4-Bomberman-_130
+    21300262: SBM4-Bomberman-_131
+    21300264: SBM4-Bomberman-_132
+    21300266: SBM4-Bomberman-_133
+    21300268: SBM4-Bomberman-_134
+    21300270: SBM4-Bomberman-_135
+    21300272: SBM4-Bomberman-_136
+    21300274: SBM4-Bomberman-_137
+    21300276: SBM4-Bomberman-_138
+    21300278: SBM4-Bomberman-_139
+    21300280: SBM4-Bomberman-_140
+    21300282: SBM4-Bomberman-_141
+    21300284: SBM4-Bomberman-_142
+    21300286: SBM4-Bomberman-_143
+    21300288: SBM4-Bomberman-_144
+    21300290: SBM4-Bomberman-_145
+    21300292: SBM4-Bomberman-_146
+    21300294: SBM4-Bomberman-_147
+    21300296: SBM4-Bomberman-_148
+    21300298: SBM4-Bomberman-_149
+    21300300: SBM4-Bomberman-_150
+    21300302: SBM4-Bomberman-_151
+    21300304: SBM4-Bomberman-_152
+    21300306: SBM4-Bomberman-_153
+    21300308: SBM4-Bomberman-_154
+    21300310: SBM4-Bomberman-_155
+    21300312: SBM4-Bomberman-_156
+    21300314: SBM4-Bomberman-_157
+    21300316: SBM4-Bomberman-_158
+    21300318: SBM4-Bomberman-_159
+    21300320: SBM4-Bomberman-_160
+    21300322: SBM4-Bomberman-_161
+    21300324: SBM4-Bomberman-_162
+    21300326: SBM4-Bomberman-_163
+    21300328: SBM4-Bomberman-_164
+    21300330: SBM4-Bomberman-_165
+    21300332: SBM4-Bomberman-_166
+    21300334: SBM4-Bomberman-_167
+    21300336: SBM4-Bomberman-_168
+    21300338: SBM4-Bomberman-_169
+    21300340: SBM4-Bomberman-_170
+    21300342: SBM4-Bomberman-_171
+    21300344: SBM4-Bomberman-_172
+    21300346: SBM4-Bomberman-_173
+    21300348: SBM4-Bomberman-_174
+    21300350: SBM4-Bomberman-_175
+    21300352: SBM4-Bomberman-_176
+    21300354: SBM4-Bomberman-_177
+    21300356: SBM4-Bomberman-_178
+    21300358: SBM4-Bomberman-_179
+    21300360: SBM4-Bomberman-_180
+    21300362: SBM4-Bomberman-_181
+    21300364: SBM4-Bomberman-_182
+    21300366: SBM4-Bomberman-_183
+    21300368: SBM4-Bomberman-_184
+    21300370: SBM4-Bomberman-_185
+    21300372: SBM4-Bomberman-_186
+    21300374: SBM4-Bomberman-_187
+    21300376: SBM4-Bomberman-_188
+    21300378: SBM4-Bomberman-_189
+    21300380: SBM4-Bomberman-_190
+    21300382: SBM4-Bomberman-_191
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 348
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c26323b0b0ce747ad66eceb8e71643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 348
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c3d945b04520f4bae1fb6270edacbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 348
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01c12fe74f771a47acb767e403f95a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 348
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f380df98e3633ba449940f85fdeaac6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 348
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01da9fc25e3e2814bada59669ab2dea8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 348
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbb119583c909545b5f7c2b9f97ead9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 348
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb14eefb938ebd24bbbe469a663606af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 348
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db96eb7aeeb4f846838f0dafe62d1e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 348
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac2a2c8c3288ed4cbba0c69f01d2410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 348
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a6737665fafc94bab94e6ca1e51987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 348
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e6ce84118cd8c458f13bf80c546951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 348
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b5d40961882d341bf1a2354034f037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d872d1ccc23f034f9279281504a160e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 320
+        width: 203
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e09fd209d23534b856e0d9c2dd991c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_14
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 320
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f1110b772c4c54984ac40af2a42b86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 320
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06971b94c23635749afd8c0664dbc136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 320
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d65c411c9b4724087a972c1cb00edf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 320
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004243ef0fea9a045bfbaf8f9faa238b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_18
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 320
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2079c9c2121cf0479a13e64dd232ec1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 320
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0675fb8be2240aa4f8d3de201e724ac1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 320
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc0cd26bf86d4540bae1aa7cc4bd141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 320
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e800582f74176324992cc90bdf4bea66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 320
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04724d3209229ad45a2aaf98bc364239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937da52c013a2eb46923c0ea20d8cf13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 292
+        width: 200
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b32062fd183fb42a2af1e48b799cb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 295
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0986cce34a363724ebc43a5d9fa395a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_26
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 295
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0063268faf677e48a111d0e1d830400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 295
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64e3b1bbd0db4944bb57abf3d2a71f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 295
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddb4a4752f38594c91f4edbfc2dcdfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 295
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491124bfc7cc5584b9a6796eb7577415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_30
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 295
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3833d1adb47716e4d99a260b2326fa5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_31
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 295
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f3a8c2a2c200847b113404d0d3d8b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_32
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 267
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cab25da640adff4e9400d6170da6f72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_33
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 267
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053fe99fd3d9bd3438f4c3da19611a74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 267
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8985976ee906cd14f940f00d089e46d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_35
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 267
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8673b5f0655fe2147898c7967b88f31c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_36
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 267
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c84c5e2ee0d044c98c411b4dc35b00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_37
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 267
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc8a266c08e1c941b0f97c0bd8924cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_38
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 267
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbfe009674aaf84a8fcb7211e80efec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_39
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 267
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee04db215214d7248a9dc835bdb57817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 239
+        width: 200
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5058ab7075172c241a66938ab0bdca80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 239
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f42c5b45b5665d4a85bed3ae651af57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_42
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 239
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08766794c7c23434782533e065ac4deb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 239
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c00e8d2c4f065d4594626beff1e15e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_44
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 239
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e3f215ff125b54782d7c8c3829d1a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_45
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 239
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd403fefd03de9d44b8317cc895d5510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_46
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 239
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f61d84511c36574d9876bdafd90960e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_47
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 239
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a04b0e0d28e274cb0134e58af1e828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_48
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 208
+        width: 200
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3083797e40c9448bc7a52903401839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 216
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdace8d4b84187a4c8b8233e88361d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_50
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 208
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d78ff453c17204e9c9b3a5b22d23c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_51
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 208
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534a9f4248f8bf0489e7c98f87c87026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_52
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 208
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f53938d6829624ebfca905cdca8bbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_53
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 208
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681db09c7f7b8c743bab7e2ba305ac68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_54
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 208
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf458a3189d324488a1f799f6c70122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_55
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 208
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7633b6bbf96e7a14cb9bffef81295169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_56
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 209
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f3e5931acb69346aef05560be71ce5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_57
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 173
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ff995d15b152b4cbfc91f6d5f253ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_58
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 173
+        width: 222
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4239703d5b69494e88a956c58133796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_59
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 173
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f88acb1db9161049972676d8828bb97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_60
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 173
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d78709468c3a147a10611e6000ea54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_61
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 173
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74371444c7df7b4484f9129a19731f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_62
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 181
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c323a44c49cd09b4ca2feae503c16f2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 194
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a2bd8d2037f814f91bab317d436795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_64
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 188
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dff875e34f18a442865313f7227b206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_65
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 173
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e25a70dad873f4192a8efd7ba000d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 173
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff619035ff3433c4cbfc1a1fba98b034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_67
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 173
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4915d1350d7a04090cde4f68f2ac2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_68
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 178
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b266e7021c9b52c438a1e965b6ca66d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 184
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2b44ef28dc5764e88e9058b6b6fdda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_70
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 173
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e60c410bf5ae94894746e6cec3276f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_71
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 177
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cea9e7d0e1817f468e828caf896f6d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 190
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c86203a2f7e545bc7d079aee73345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_73
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 177
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efbd1a2db770cb4a8f536d7057b0da5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_74
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 154
+        width: 200
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cf524b6e302154f80ea59c3e129394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_75
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 154
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91688846a06c0c04ea8a16a57ba6be44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_76
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 154
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c01858c64e2694c83bb4506e79bd4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_77
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 130
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8733099820554644bb379af332b3427e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_78
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 130
+        width: 200
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc28257546b1b344cb982f0367a5a71d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_79
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 130
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc443fdc2c8080b429cdc58c07acb36b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_80
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 130
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a75426afbe19954f877a352b105539c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_81
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 130
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8a0829446de11449120ce7f53c4f21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_82
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 130
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb21462ca5e3444c8e16d5bc2587e17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_83
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 130
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5b0c3ad081b374c90f36788c8a7916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_84
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 130
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391d0b388bdb6e449a73c49ad3d171a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 130
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a798b025c778b5498a8b37ef2cd6ad6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_86
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 130
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f21720fc6ffa949a90d638e3b7d53a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_87
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 130
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09296d648357e1488c6e8ac17869533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_88
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 130
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac714c40869eb634b8da82e3953ae0aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 101
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3af9efd8385134cb12161398924272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_90
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 101
+        width: 200
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c124f6d440b9a45b8f5f9d58e5ca11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_91
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 101
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0aa189b5313ba43bcb467ecc556803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_92
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 101
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf3262272885374a812b78387aa3c48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_93
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 101
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da9164383b572741a436ef46bf9a86c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_94
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 101
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff900d389e4a1724abbe76dcb3d94210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_95
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 101
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760db150afcf14b4fa148f3aed05ed00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_96
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 101
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de901cdbea5cf01419da48edd608d6fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_97
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 73
+        width: 211
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042f47fb03bf3c84ba25b71f92c16f78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_98
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 76
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc00e4961153aac40989731fcbb58850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_99
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 81
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae9c7e487d91734fb6c0542af54bd5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86b6e7155bf4f64fae4b2ac069bd852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_101
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 81
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e330a70c4a0df4145b0fcc2727cbdcad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 81
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea53b9e03f0bfd418cb60f9732ee750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_103
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 81
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9862e44673fce4749bfffb2c565a6c49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c3efab6439cc9478c42e0372d736f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_105
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 81
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c529765896b1a544851e020b18b96cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 81
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f63fb3500d4fc4597c006555c682ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_107
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 81
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e85b2617928bf847ba783d9b51a2f77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 81
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2fbf5e5297e3143a15a1910c36da17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_109
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 48
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ad214a865c1ac48a51510b20fbb75f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_110
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 51
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33c29b31c52e5548b7be3d31989ed9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_111
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ee798bd993e474e9387f5376d57bdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_112
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7327ae431f9075f4395561a54b6def1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_113
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc80a7a719d05ff4c9fae826af79f21a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_114
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dee2ef57070af42a686f57854a054a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_115
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b4323e2642a1b4bbe7f8a7fb1731e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_116
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 23
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf22584f0649fb40a4deb5d38b06fe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_117
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 25
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94528f66429a6404088564b7a175f9b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_118
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 22
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcb2a0ec8d7ca242a171b7fe9421e8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_119
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 25
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7df4c937fea3e4285206a4d672e186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_120
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 22
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143e9340ac92c414990d2eb4bc7fd6aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_121
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 25
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6839e4444762400459b6db7791eca7b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_122
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 22
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b4199452c42d44683fab32c957e4da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_123
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 25
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb99596b0aa68543b505d30827282a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_124
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 22
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90be677c44f7a142ace4c38787eed6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_125
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 25
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9499c6b8aa5abc4baa0480522abf238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_126
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 22
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f136ea1c63a835e47b23a4abe5dc52ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_127
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 25
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098da7fc497c6e547965b64f8ed82cd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_128
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05aa116f6c450484ea3096c526f48700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_129
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 13
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c61a8edaa6d8524cadafdd063f4bc1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_130
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 13
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a732553a047a42f46a63378c7bdb516a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_131
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 13
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e8c9b90a8079b41a09305f75cfba41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_132
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 13
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fff0471eab9c942b58bfb14eb7072a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_133
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 13
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aed3a5a71b40ac4d95232698670f92b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_134
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94d91a694af38b4ead2b695812b3327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_135
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 13
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b80beeca98a6e4a90cdb3fd996ec22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_136
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 13
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0524531fabcf54c4e839d311ee4bdfc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_137
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fa97ad89b71a442b2e23de60c3a03f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_138
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b90d6f199e11be44a994d7b5c4a18ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_139
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 13
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb8737ca125cfa48b0be2dadba8948d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_140
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42b41a0384b4c347b87da7b65a03c4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_141
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 13
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e9e593077a6a04483a17e071f886d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_142
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 13
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214efc69184542f4b8bd8de847063b8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_143
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 13
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6508d062c0ba7d242a19dbc381a4d3d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_144
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 13
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d6a6548f419764aba8788adef54e13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_145
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 13
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800a28b1059424647beb31bccf5d4ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_146
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ce9543c8cb1ff4db592b83b0134341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_147
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24fb58d791c1d499a60f3967cb25e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_148
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 13
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7bb9d23ab71e745b72f64e62b72b8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_149
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f1e4664cedd144aa4857bc0ba22f8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_150
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1101cb3d27f244646bdbc2bceac34076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_151
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3403b1eeda0a6f147a3868d83d899b40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_152
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 13
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eae3ca203c20b442bb23a4ba51b187a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_153
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 11
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16074154aa78c944a3737f78e13df96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_154
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8732f1754a2756409cde732059cc7f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_155
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c79db25f3ae274d9228ecd038f2ac7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_156
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 11
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85d151b97c1aef4d9aa876aaf5ad079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_157
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 11
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cad866d4099da4188c978146e59991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0603daf0d63c2c34db3b807cc642c7bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_159
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fda664596d6d9e48a94b11219a5652a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_160
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1629aaed4d829124886d0fa20da4c70a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_161
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccef5523ad4d68147abab8801f6c93b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_162
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916e908ac4f8f9247aa0a5539bbce594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_163
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686dddd76d4ee9d408e3ff68390c8b0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_164
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1c039b876856449bcbdf153d49fcfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_165
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf3821c1d157f74d97821f23fd35ebe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_166
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83535f234bd91d47bf8a9bc154dbe38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_167
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d5bcb3392f6bc4c85c98f51e01d5da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_168
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264b7c024b1cdd045bc0a245da610d12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_169
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d5c68d5fdcd05469a8d9065b5d06a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_170
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfdaf863ee4542429cb908130d16dbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_171
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e65ad462fe041749aac434d2b037253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_172
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8947cfb7aac1f8a4bbb6d8de3555dfcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_173
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f62d318cf1d454cb5448ce35b12a27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_174
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db367c53399eb6e4b8663d605d12ff27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_175
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b3d90d47b0e5449bd6161a6de7b5eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_176
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3324e0d3d7629cd4387bf0b48549df49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_177
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bb55d6d0ed9324dacb48e3bd463087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_178
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56eee92a6d575e4ab358a5c7bd9871f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_179
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eafc7b74d63de40ba045f8e8f0345f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_180
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33be3b0d440f1384b84aa1a20545819c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_181
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2e36f18e1406a47a26efbb4bc0369f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_182
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84ee32f8ba10bd4bb28a7af1ef724e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_183
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b56a95e3733b648ae5c66b308dc6d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_184
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71457350895c9f40a4e3da9f3a64d7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_185
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937645a685fc2a345abf55c2501c3614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_186
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b8ad2c2820c5c4d9d75b0173f5d6f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_187
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a793557d9dda654b99cb55600404376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_188
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9b852e7f61214448c141e6f5e15bef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_189
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8d41901c9c71248a8f11bff051eea3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_190
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984a3574ee4493145a4f3ec6dc622448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SBM4-Bomberman-_191
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296c9da8e0cccd04a99cc8ef19b16a8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 35bc20d85a18c9248924a7315f29e542
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

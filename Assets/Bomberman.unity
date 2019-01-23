@@ -1534,6 +1534,11 @@ Prefab:
       propertyPath: m_CompositePaths.m_Paths.Array.data[36].Array.data[3].x
       value: -3
       objectReference: {fileID: 0}
+    - target: {fileID: 114999421548554174, guid: 1e334d69e82373849a2b9d4d93522670,
+        type: 2}
+      propertyPath: density
+      value: 70
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e334d69e82373849a2b9d4d93522670, type: 2}
   m_IsPrefabAsset: 0

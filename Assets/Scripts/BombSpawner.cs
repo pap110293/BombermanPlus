@@ -9,23 +9,25 @@ public class BombSpawner : NetworkBehaviour
     public static int playerNumber = 0;
     [SyncVar(hook = "onCurrentPlayerNumberChanged")]
     public int currenPlayerNumber = 0;
-
     public GameObject bombPrefab;
     public float moveSpeed = 5f;
     public int level = 1;
     public int maxNumberOfBomb = 2;
+    public Sprite[] sprites;
 
     private static GameMaster gameMaster;
+    private SpriteRenderer spriteRenderer;
 
     private const int ROW = 11;
     private const int COL = 15;
 
     public override void OnStartLocalPlayer()
     {
-        CmdLogIn();
         gameMaster = FindObjectOfType<GameMaster>();
         gameMaster.SetLocalPlayer(this);
         gameMaster.mapManager.CreateMap();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        CmdLogIn();
         InitPosition();
     }
 
@@ -38,7 +40,11 @@ public class BombSpawner : NetworkBehaviour
 
     private void onCurrentPlayerNumberChanged(int newPlayerNumber)
     {
-        this.currenPlayerNumber = newPlayerNumber;
+        if (isLocalPlayer)
+        {
+            currenPlayerNumber = newPlayerNumber;
+            spriteRenderer.sprite = sprites[currenPlayerNumber];
+        }
     }
 
     private void InitPosition()
