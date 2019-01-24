@@ -25,17 +25,21 @@ public class BombSpawner : NetworkBehaviour
     {
         gameMaster = FindObjectOfType<GameMaster>();
         gameMaster.SetLocalPlayer(this);
-        gameMaster.mapManager.CreateMap();
         spriteRenderer = GetComponent<SpriteRenderer>();
         CmdLogIn();
         InitPosition();
+    }
+
+    private void OnPlayerDisconnected(NetworkIdentity player)
+    {
+        gameMaster.mapManager.ClearTheMap();
     }
 
     [Command]
     private void CmdLogIn()
     {
         playerNumber++;
-        currenPlayerNumber = playerNumber;
+        currenPlayerNumber = playerNumber; 
     }
 
     private void onCurrentPlayerNumberChanged(int newPlayerNumber)
@@ -108,8 +112,9 @@ public class BombSpawner : NetworkBehaviour
 
     public void CreateABomb()
     {
-        // check can player put a bomb
         var cell = gameMaster.gamePlayerTilemap.WorldToCell(transform.position);
+
+        // check can player put a bomb
         var existedBomb = gameMaster.mapManager.GetBombFromCell(cell);
         var myBombs = FindObjectsOfType<Bomb>().Where(i => i.playerNumber == currenPlayerNumber);
         if (existedBomb != null || myBombs.Count() >= maxNumberOfBomb) return;

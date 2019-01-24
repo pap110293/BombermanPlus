@@ -28,10 +28,15 @@ public class ItemManager : NetworkBehaviour
     [ClientRpc]
     private void RpcRemoveAllItem()
     {
-        var allItemOnMap = FindObjectsOfType<Item>();
+        var allItemOnMap = GetItems();
         for (int i = 0; i < allItemOnMap.Length; i++)
         {
             Destroy(allItemOnMap[i].gameObject);
         }
+    }
+
+    public Item[] GetItems()
+    {
+        return FindObjectsOfType<Item>();
     }
 }

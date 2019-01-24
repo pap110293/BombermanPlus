@@ -97,8 +97,8 @@ MonoBehaviour:
   level: 1
   maxNumberOfBomb: 2
   sprites:
-  - {fileID: 21300222, guid: 43385266694543548801c000cc48aa73, type: 3}
   - {fileID: 21300224, guid: 43385266694543548801c000cc48aa73, type: 3}
+  - {fileID: 21300222, guid: 43385266694543548801c000cc48aa73, type: 3}
   - {fileID: 21300226, guid: 43385266694543548801c000cc48aa73, type: 3}
   - {fileID: 21300228, guid: 43385266694543548801c000cc48aa73, type: 3}
   - {fileID: 21300230, guid: 43385266694543548801c000cc48aa73, type: 3}
@@ -190,7 +190,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300222, guid: 43385266694543548801c000cc48aa73, type: 3}
+  m_Sprite: {fileID: 21300224, guid: 43385266694543548801c000cc48aa73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

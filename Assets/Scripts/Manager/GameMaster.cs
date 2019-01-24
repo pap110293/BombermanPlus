@@ -18,6 +18,7 @@ public class GameMaster : NetworkBehaviour
     public ItemManager itemManager;
 
     [SyncVar]
+    [HideInInspector]
     public bool isGameOver = false;
 
     private BombSpawner localPlayer;
@@ -26,10 +27,7 @@ public class GameMaster : NetworkBehaviour
     {
         if (isGameOver && isServer && Input.GetKeyDown(KeyCode.R))
         {
-            if (isServer)
-            {
-                ResetGame();
-            }
+            ResetGame();
         }
     }
 
@@ -84,5 +82,4 @@ public class GameMaster : NetworkBehaviour
         }
         isGameOver = false;
     }
-
 }
